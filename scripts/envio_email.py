@@ -26,4 +26,4 @@ def envio_email(mensagem, nome_planilha):
     """
     path_planilha = 'D:\\estudos\\selenium\\'+nome_planilha
     yag = yagmail.SMTP('Email', '#Senha')
-    yag.send(to = 'Destination@email.com', subject ='[Versão Beta] Coleta concluída!', contents = mensagem_final,  attachments = path_planilha )
+    yag.send(to = 'Destino@email.com', subject ='[Versão Beta] Coleta concluída!', contents = mensagem_final,  attachments = path_planilha )
